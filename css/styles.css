@@ -339,12 +339,23 @@ letter-spacing: 0.02em;
 
 }
 
-.team-icon-list {
+.team-socials {
   display: flex;
   justify-content: center;
   gap: 24px;
+  
+  
 }
 
+.team-socials-list {
+  
+  border-radius: 50%;
+  background-color: #4D5AE5;
+  width: 40px;
+  height: 40px;
+  
+  
+}
  
 
 
