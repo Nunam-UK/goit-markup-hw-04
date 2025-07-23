@@ -339,27 +339,7 @@ letter-spacing: 0.02em;
 
 }
 
- .team-icon-box {
-  background-color: #4d5ae5;
-  border-radius: 50%;
-  width: 40px;
-  height: 40px;
-  
-
  
-}
-
-.all-team-icons {
-  display: flex;
-  
-  gap: 24px;
-}
-
-.team-icon {
-  width: 16px;
-  height: 16px; 
-   margin: 12px 12px;
-} 
 
 
 .portfolio {
