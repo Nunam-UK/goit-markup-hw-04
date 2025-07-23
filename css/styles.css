@@ -190,16 +190,17 @@ button {
 
 
 .order {
-  height: 600px;
    background-color: #2e2f42;
    padding-top: 188px;
-   padding-bottom: 188px;
-   background-image:  url(../images/people-office.jpg);
+   margin-bottom: 188px;
+   background-image:linear-gradient(
+      rgba(17, 17, 17, 0.4),
+      rgba(17, 17, 17, 0.4)
+    ),  url(../images/people-office.jpg);
    background-repeat: no-repeat;
    background-size: cover;
    background-position: center;
    border: 1px solid #000;
-   
    
 }
 
@@ -226,6 +227,17 @@ button {
 }
 
 
+
+.benefits-icon {
+border: 1px solid #8E8F99;
+border-radius: 4px;
+width: 264px;
+height: 112px;
+padding: 24px 100px;
+
+
+
+}
 
 .benefits-list {
   display: flex;
@@ -323,6 +335,29 @@ margin-bottom: 8px;
 letter-spacing: 0.02em;
 
 }
+
+ .team-icon-box {
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  
+
+ 
+}
+
+.all-team-icons {
+  display: flex;
+  
+  gap: 24px;
+}
+
+.team-icon {
+  width: 16px;
+  height: 16px; 
+   margin: 12px 12px;
+} 
+
 
 .portfolio {
   background-color: #FFFFFF;
