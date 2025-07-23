@@ -230,22 +230,22 @@ button {
 }
 
 
-
-.benefits-icon {
-border: 1px solid #8E8F99;
-border-radius: 4px;
-width: 264px;
-height: 112px;
-padding: 24px 100px;
-
-
-
-}
-
 .benefits-list {
   display: flex;
   gap: 24px;
 
+}
+
+.all-benefits-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F4F4FD;
+  border: 1px solid #8E8F99;
+  border-radius: 4px;
+  height: 112px;
+  margin-bottom: 8px;
+  
 }
 
 .visually-hidden {
