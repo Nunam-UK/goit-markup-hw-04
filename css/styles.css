@@ -374,7 +374,24 @@ letter-spacing: 0.02em;
   fill: #f4f4fd;
 }
  
+.portfolio-thumb {
+  position: relative;
+}
 
+.overlay {
+  font-size: 16px;
+line-height: 150%;
+letter-spacing: 0.02em;
+color: #F4F4FD;
+background-color: #4D5AE5;
+position: absolute;
+inset: 0;
+padding: 32px;
+display: flex;
+align-items: center;
+ 
+
+}
 
 .portfolio {
   background-color: #FFFFFF;
