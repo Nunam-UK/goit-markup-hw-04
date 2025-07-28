@@ -205,6 +205,8 @@ button {
    border: 1px solid #000;
    max-width: 1440px;
    margin: 0 auto;
+   padding-top: 188px;
+  padding-bottom: 188px;
    
 }
 
@@ -214,8 +216,7 @@ button {
   align-items: center;
   justify-content: center;
   text-align: center;
-  padding-top: 188px;
-  padding-bottom: 188px;
+  
 }
 
 .order-title {
